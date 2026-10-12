@@ -1,0 +1,9 @@
+tensorflow>=2.16
+numpy
+pandas
+pillow
+gradio>=4.0
+tensorflow-datasets
+scikit-learn
+matplotlib
+jupyter
