@@ -93,7 +93,7 @@ Food-101 has no nutrition labels, so `data/calories.csv` maps each class to a **
 ```
 food-calorie-estimator/
 ├── notebooks/
-│   └── 01_training.ipynb      # data, training, evaluation, Grad-CAM, calorie lookup
+│   └── train.ipynb      # data, training, evaluation, Grad-CAM, calorie lookup
 ├── app/
 │   └── app.py                 # Gradio demo
 ├── data/
@@ -102,7 +102,6 @@ food-calorie-estimator/
 │   └── class_names.json       # label order used by the model
 ├── results/                   # training curves, Grad-CAM, classification report
 ├── requirements.txt           # inference / demo dependencies
-├── requirements-train.txt     # training dependencies
 └── README.md
 ```
 
