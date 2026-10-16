@@ -1,0 +1,17 @@
+# --- Model weights & checkpoints (host on a GitHub Release / Hugging Face instead) ---
+food_classifier.keras
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# --- Notebooks ---
+.ipynb_checkpoints/
+
+# --- Virtual environments ---
+.venv/
+
+# Sample image
+sample_0.jpg
